@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+.display{
+    margin: 40px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid;
+    height: 50vh;
+    width: 50vw;
+}
+.coimtaner{
+    padding-bottom: 30PX;
+      
+}
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 10, 10);
+ }
+ h1{
+    color: rgb(144, 76, 28);
+ }
+ h1:hover{
+    color: azure;
+ }
+ .box{
+    border: 2px solid;
+    font-size: 49px;
+    font-weight: 700;
+    color: rgb(78, 57, 4);
+    background-color: rgb(211, 204, 204);
+ }
+ .cointanershower{ 
+     
+    font-size: 29px;
+    font-weight: 700;
+    margin: 2px auto 0;
+    height: 20vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(131, 75, 25);
+ }
+ .cointanershower button{
+    cursor: pointer;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(50, 27, 10);
+    color: aliceblue;
+    font-weight: 400;
+ }
+ .cointanershower button:hover{
+    background-color: aliceblue;
+    color: black;
+ }
+ .hide{
+   display: none;
+ }
+ .decorate{
+   text-decoration: line-through;
+ }
